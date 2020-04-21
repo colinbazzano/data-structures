@@ -22,6 +22,22 @@ Linked lists don't have direct access to random items, you would need to start f
 
 When you add a new node to the linked list, you first want to have your node point to None, just like the tail node does, then update the tail's pointer value to then be the node you are adding. This ensures there's always a node pointing to None (the tail node)
 
+Arrays vs Linked Lists
+
+ARRAYS:
+append: O(1)
+print nth item: O(1)
+add to front: O(n)
+remove from front: O(n)
+remove from mid: O(n)
+find:
+
+LINKED LISTS:
+append: O(1)
+print nth item: O(n)
+add to front: O(1)
+remove from front: O(1)
+
 ### Singly/Doubly Linked Lists
 
 Singly Linked Lists are your standard linked list, that point to the next node in the list until the tail, which points to None
